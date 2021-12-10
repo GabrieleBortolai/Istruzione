@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+  double a,b,sum,sott,div,prod;
+  string c;
+
+  cout<<"Inserire a"<<endl;
+  cin>>a;
+  cout<<"Quale operazione vuoi svolgere"<<endl;
+  cin>>c;
+  cout<<"Inserire il secondo valore"<<endl;
+  cin>>b;
+
+  sum=a+b;
+  sott=a-b;
+  div=a\b;
+  prod=a*b;
+  
+  if(c=="+"){
+
+    cout<<"La somma vale"<<sum<<endl;
+
+  }
+
+  else if(c=="-"){
+
+    cout<<"La differenza vale:"<<sott<<endl;
+
+  }
+
+  else if(c=="*"){
+
+    cout<<"Il prodotto vale:"<<prod<<endl;
+
+  }
+  
+  else if(c=="/"){
+
+    cout<<"La divisione vale:"<<div<<endl;
+
+  }
+    
